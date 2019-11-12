@@ -1,0 +1,25 @@
+{
+  "name": "wizard-screen-server",
+  "version": "1.0.0",
+  "description": "Server configuration for wizard screen application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "../.git"
+  },
+  "author": "Ben McMurray",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.9.8",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
