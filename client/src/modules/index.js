@@ -1,1 +1,3 @@
-export { default as Posts } from './containers';
+export { Posts } from './post';
+export { User } from './user';
+export { Auth } from './auth';
