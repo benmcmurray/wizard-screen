@@ -1,11 +1,11 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
-  template: './client/src/index.html'
+  template: './src/index.html'
 });
 
 module.exports = {
-  entry: './client/src/index.js',
+  entry: './src/index.js',
   module: {
     rules: [
       {
